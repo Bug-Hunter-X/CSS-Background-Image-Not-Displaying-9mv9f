@@ -1,0 +1,11 @@
+The corrected CSS code addresses the path issue and ensures the image is displayed correctly:
+
+```css
+.container {
+  background-image: url('./image.jpg'); /* Corrected relative path */
+  width: 300px;
+  height: 200px;
+}
+```
+
+Make sure that the 'image.jpg' file is in the same directory as the CSS file, or adjust the path accordingly. Alternatively, you could use an absolute path to specify the image location precisely.
