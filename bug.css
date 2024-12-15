@@ -1,0 +1,11 @@
+The following CSS code snippet exhibits an unusual error where the background image does not appear as expected, despite the seemingly correct implementation:
+
+```css
+.container {
+  background-image: url('image.jpg');
+  width: 300px;
+  height: 200px;
+}
+```
+
+The issue occurs due to an incorrect or missing path to the image. The path must be relative to the CSS file or absolute.
